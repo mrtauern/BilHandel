@@ -8,6 +8,7 @@ public class BilHandel{
         biler.add(new Bil("Sherman", 550));
         biler.add(new Bil("Kia C'eed", 120));
         biler.add(new Bil("Bugatti Veyron", 1000));
+        biler.add(new Bil("Jaguar F-Type", 600));
 
         for (Bil b : biler){
             b.printInfo();
